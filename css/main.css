@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding: 50px;
+    
+}
+
+
+/*=============================tabs==========================*/
+
+
+
+.tabs {
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.tab__wrapper {
+}
+.list-group {
+    margin-bottom: 10px;
+}
+.list-group li {
+    margin-left: -6px;
+}
+.list-group li:first-child {
+    margin-left: 0;
+}
+
+.list-group-item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: inline;
+    text-transform: uppercase;
+    padding: 10px 73px;
+    cursor: pointer;
+}
+
+.active {
+    border: 1px solid #C6CBCD;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px 5px 0 0;
+    
+}
+
+.card {
+    padding-left: 100px;
+    border: 1px solid #C6CBCD;
+    transition: all 500ms ease-in-out;
+    /*width: 1170px;
+    height: 501px;*/
+    /*display: flex;
+    justify-content: space-between;*/
+    
+    
+    
+
+}
+.card-info {
+    width: 540px;
+    height: 404px;
+    padding-top: 42px;
+    padding-bottom: 69px;
+    display: inline-block;
+    margin-right: 53px;
+    vertical-align: top;
+    
+    
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 68px;
+   
+    
+}
+.card__text {
+    margin-bottom: 53px;
+    
+}
+.card__text p {
+    margin-bottom: 21px;
+}
+.card__text p:last-child {
+    margin-bottom: 0;
+}
+.btn__wrapper {
+    margin-top: 63px;
+}
+.card__btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 15px 90px;
+    color: #fff;
+    background: #EC7979;
+}
+
+.card__btn:hover {
+    background: #AB4949;
+}
+
+.card__btn:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+.hidden {
+    display: none;
+}
+
+.card__img {
+    display: inline-block;
+    
+}
+
+
+
+
+
+
+
+
+
+/*============Контент для примера ====================*/
